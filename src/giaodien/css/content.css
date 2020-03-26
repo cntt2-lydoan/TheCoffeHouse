@@ -1,0 +1,108 @@
+.content{
+ 
+    margin-top: 114px;
+  }
+  /* contten-slider *
+  /* Number text (1/3 etc) */
+ 
+  
+  .content1 img{
+   width:100%;
+    /* margin-left:-139px ; */
+    /* margin-right: 0px; */
+  }
+  
+  
+  /* content1*/
+  .content1{
+    display: block;
+    position: relative;
+    width:100%;
+    margin-top:-23px;
+  }
+  .caption{
+    position: absolute;
+    top: 78%;
+    left: 60%;
+  }
+  #kpt{
+    color:#F2BC7B;
+    text-transform: uppercase;
+    border:solid 1px #F2BC7B;
+    text-decoration: none;
+    border-radius: 5px;
+    padding: 6px 65px;
+    transition: all .3s ease-in-out;
+  }
+  #kpt:hover{
+    color:#8D7455;   
+    background-color:#F2BC7B ;
+    transition: all .3s ease-in-out;
+  }
+  /* comtent2 */
+  #kpt2{
+    color:#496333;
+    text-transform: uppercase;
+    border: solid 1px #496333;
+    text-decoration: none;
+    border-radius: 5px;
+    padding: 6px 65px;
+    transition: all .3s ease-in-out;
+  }
+  #kpt2:hover{
+    color:white;
+    background-color: #496333;
+    transition: all .3s ease-in-out;
+  }
+  /* .content3 */
+  #kpt3{
+    color:#B02B2E;
+    text-transform: uppercase;
+    border:solid 1px #B02B2E;
+    text-decoration: none;
+    border-radius: 5px;
+    padding: 6px 65px;
+    transition: all .3s ease-in-out;
+  }
+  #kpt3:hover{
+    color:white;   
+    background-color:#B02B2E ;
+    transition: all .3s ease-in-out;
+    font-weight: bold;
+  }
+  
+  /* content-bottom */
+  .content-bottom{
+    width: 100%;
+    display: flex;
+  }
+  .bottom-left{
+    width: 50%;
+    height: 460px;
+    background-image: url(https://www.highlandscoffee.com.vn/vnt_upload/weblink/homepage-STORE_1.jpg);
+    background-repeat: no-repeat;
+    background-size: 100% ;
+  }
+  .blt{
+    text-transform: uppercase;
+    color:white;
+    font-weight: bold;
+  }
+  .bl-margin{
+    margin-top: 59px;
+    margin-left: 100px;
+  }
+  .bottom-right{
+    width: 50% ;
+    background-image: url(https://www.highlandscoffee.com.vn/vnt_upload/weblink/bg2.jpg?fbclid=IwAR2uBfUUPuX7HkHPFarHL9kTrV7_cMdIFjyADcMBsouwyZtOUCfRfYAFegw);
+    background-repeat: no-repeat;
+    background-size: 100% ;
+  }
+  .brt{
+    text-transform: uppercase;
+    font-weight: bold;
+  }
+  .br-margin{
+    margin-top: 59px;
+    margin-left: 105px;
+  }

@@ -1,0 +1,82 @@
+/* tVeChungToi */
+.content-VCT{
+    display: inline-block;
+    width: 100%;
+    background-repeat: no-repeat;
+    /* margin-bottom: 4%; */
+    position: relative;
+    
+  }
+  .tvct-mo {
+    width: 50%;
+    position: absolute;
+    padding-left: 10%;
+      top: 50%;
+      transform: translateY(-50%);
+  }
+  .image-VCT{
+    width: 50%;
+  
+  }
+  .textVCT-title h1{
+  
+   font-family: 'Inter', sans-serif;
+   display: block;
+   font-size: 45px;
+   line-height: 68px;
+   color: #53382c;
+   text-transform: uppercase;
+   font-weight: bold;
+  }
+  .textVCT-title h1:hover{
+  color: #F1BC7B;
+  }
+  #kptVCT1{
+    color: #B02B2E;
+    text-transform: uppercase;
+    border: solid 1px #B02B2E;
+    text-decoration: none;
+    border-radius: 5px;
+    padding: 8px 65px;
+    transition: all .3s ease-in-out;
+  }
+  .image-VCT {
+    position: relative;
+  }
+  #kptVCT1:hover{
+    color:white;   
+    background-color:#B02B2E ;
+    transition: all .1s ease-in-out;
+    font-weight: bold;
+    border:solid 1px #B02B2E;
+    text-decoration: none;
+  }
+  .image-VCT::before {
+    content: "";
+      position: absolute;
+      top: 0;
+      left: 0;
+      bottom: 0;
+      right: 0;
+      background: -moz-linear-gradient(left, rgba(255,255,255,1) 0%, rgba(255,255,255,0) 59%, rgba(255,255,255,0) 100%);
+      background: -webkit-linear-gradient(left, rgba(255,255,255,1) 0%,rgba(255,255,255,0) 59%,rgba(255,255,255,0) 100%);
+      background: linear-gradient(to right, rgba(255,255,255,1) 0%,rgba(255,255,255,0) 59%,rgba(255,255,255,0) 100%);
+      z-index: 1;
+      pointer-events: none;
+  }
+  .tvct-mo-right{
+    display: block;
+    width: 100%;
+    float: right;
+    position: absolute;
+    /* -webkit-mask-image: -webkit-gradient(linear, center top, 1000 top, from(rgba(0,0,0,1)), to(rgba(0,0,0,0))); */
+    background-color: white;
+  }
+  .text-VCT-right{
+    width: 50%;
+    margin-top: 2%;
+    /* position: absolute; */
+    height: 100%;
+    margin-left: 8%;
+    margin-bottom:4%;
+  }

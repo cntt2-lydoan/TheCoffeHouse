@@ -1,0 +1,88 @@
+
+/* thucdonCF */
+.sp{
+  width: 100%;
+  display: flex;
+  position: relative;
+  top: 9px;
+}
+.box-sp{
+  width: 84%;
+    margin-left: 8%;
+    margin-top: 0%;
+    margin-bottom: 5%;
+    position: relative;
+    top: 60px;
+}
+.sp-info-r{
+  display: flex;
+}
+.sp-right-r{
+  width: 150px;
+  float: left;
+  margin-right: 10px;
+  overflow: hidden;
+
+}
+.sp-right-img{
+  transition: transform .2s;
+}
+.sp-right-img:hover{
+  -ms-transform: scale(1); /* IE 9 */
+  -webkit-transform: scale(1); /* Safari 3-8 */
+  transform: scale(1.1); 
+}
+.sp-title h2{
+  display: block;
+  font-size: 47px;
+  line-height: initial;
+  font-weight: bold;
+  text-transform: uppercase;
+  color: #53382C;
+}
+.sp-info{
+  font-size: 15px;
+    line-height: 23px;
+    color: #53382c;
+    margin-bottom: 25px;
+    width: 100%;
+}
+
+.des{
+  font-size: 15px;
+  line-height: 23px;
+  max-height: 69px;
+}
+#kptCF{
+  color: #B02B2E;
+  text-transform: uppercase;
+  border: solid 1px #B02B2E;
+  text-decoration: none;
+  border-radius: 5px;
+  padding: 8px 65px;
+  transition: all .3s ease-in-out;
+}
+#kptCF:hover{
+  color:white;   
+  background-color:#B02B2E ;
+  transition: all .1s ease-in-out;
+  font-weight: bold;
+  border:solid 1px #B02B2E;
+  text-decoration: none;
+}
+.sp-right-text h3{
+  font-size: 22px;
+  line-height: 30px;
+  font-weight: bold;
+  color: #53382c;
+  overflow: hidden;
+  text-overflow: ellipsis;
+  display: block;
+  transition: transform .2s;
+}
+.sp-right-text h3:hover{
+  color:#F14A50;
+}
+.sp-right{
+  margin-left: 3%;
+}
